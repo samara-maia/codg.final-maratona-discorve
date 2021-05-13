@@ -117,7 +117,7 @@ const DOM = {
      },
 
      formarDate(date) {
-         const splittedDate = date.spli("-")
+         const splittedDate = date.split("-")
          return `${splittedDate[2]}/${splittedDate[1]}/${splittedDate[0]}`
      },
 
